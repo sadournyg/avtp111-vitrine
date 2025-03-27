@@ -1,9 +1,17 @@
-import React from "react";
+import AboutHeroSection from "../sections/AboutHeroSection";
+import AboutPresentation from "../sections/AboutPresentation";
+import AboutValues from "../sections/AboutValues";
+import CtaSection from "../sections/CTASection";
 
-type Props = {};
-
-const About = (props: Props) => {
-  return <div>About</div>;
+const About = () => {
+  return (
+    <>
+      <AboutHeroSection />
+      <AboutPresentation />
+      <AboutValues />
+      <CtaSection />
+    </>
+  );
 };
 
 export default About;
