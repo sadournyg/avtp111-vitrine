@@ -1,9 +1,17 @@
-import React from "react";
+import HeroSection from "../sections/HeroSection";
+import PresentationSection from "../sections/PresentationSection";
+import ServicesTeaser from "../sections/ServicesTeaser";
+import CtaSection from "../sections/CTASection";
 
-type Props = {};
-
-const Home = (props: Props) => {
-  return <div>Home</div>;
+const Home = () => {
+  return (
+    <>
+      <HeroSection />
+      <PresentationSection />
+      <ServicesTeaser />
+      <CtaSection />
+    </>
+  );
 };
 
 export default Home;
