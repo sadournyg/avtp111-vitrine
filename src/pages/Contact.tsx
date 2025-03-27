@@ -1,9 +1,13 @@
-import React from "react";
+import ContactHeroSection from "../sections/ContactHeroSection";
+import ContactSection from "../sections/ContactSection";
 
-type Props = {};
-
-const Contact = (props: Props) => {
-  return <div>Contact</div>;
+const Contact = () => {
+  return (
+    <>
+      <ContactHeroSection />
+      <ContactSection />
+    </>
+  );
 };
 
 export default Contact;
