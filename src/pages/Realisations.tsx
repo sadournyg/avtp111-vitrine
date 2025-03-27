@@ -1,9 +1,13 @@
-import React from "react";
+import RealisationsGallery from "../sections/RealisationsGallery";
+import RealisationsHero from "../sections/RealisationsHero";
 
-type Props = {};
-
-const Realisations = (props: Props) => {
-  return <div>Realisations</div>;
+const Realisations = () => {
+  return (
+    <>
+      <RealisationsHero />
+      <RealisationsGallery />
+    </>
+  );
 };
 
 export default Realisations;
