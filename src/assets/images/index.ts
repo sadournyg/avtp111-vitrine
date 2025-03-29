@@ -4,6 +4,8 @@
 import heroBg from "./bg-hero.jpg";
 import heroService from "./service-hero.jpg";
 import heroRealisations from "./realisation-hero.jpg";
+import heroAbout from "./about-hero.jpg";
+import heroContact from "./contact-hero.jpg";
 
 // 🔹 TERRASSEMENT
 import terrassement01 from "./terrassement-01.jpg";
@@ -29,6 +31,8 @@ export const images = {
   heroBg,
   heroService,
   heroRealisations,
+  heroAbout,
+  heroContact,
 
   // TERRASSEMENT
   terrassement01,

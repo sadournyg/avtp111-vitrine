@@ -37,15 +37,15 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <nav aria-label="Navigation principale" className="hidden lg:block">
-          <ul className="flex gap-6 text-sm font-semibold text-white">
-            {navLinks.map(({ path, label }, index) => (
-              <li key={index}>
+          <ul className="flex gap-8 text-sm font-semibold text-white tracking-wide">
+            {navLinks.map(({ path, label }) => (
+              <li key={path}>
                 <NavLink
                   to={path}
                   className={({ isActive }) =>
-                    `transition ${
+                    `relative transition duration-200 pb-1 ${
                       isActive
-                        ? "text-[#f97316] font-bold"
+                        ? "text-[#f97316] font-bold after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#f97316]"
                         : "hover:text-[#f97316]"
                     }`
                   }

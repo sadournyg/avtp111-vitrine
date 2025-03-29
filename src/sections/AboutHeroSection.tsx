@@ -1,15 +1,27 @@
-// src/sections/AboutHeroSection.tsx
 import Title from "../components/Title";
 import MotionFadeIn from "../components/MotionFadeIn";
+import { images } from "../assets/images"; // suppose que tu as une image heroAbout
 
 const AboutHeroSection = () => {
   return (
-    <section className="bg-[#1e3a8a] text-white text-center py-20 px-4">
-      <MotionFadeIn className="max-w-3xl mx-auto">
-        <Title as="h1" className="mb-4">
+    <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-center justify-center text-center px-4 py-20 text-white">
+      {/* Image de fond */}
+      <div
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{ backgroundImage: `url(${images.heroAbout})` }}
+      />
+      {/* Overlay sombre */}
+      <div className="absolute inset-0 bg-black/70 z-10" />
+
+      {/* Contenu */}
+      <MotionFadeIn className="relative z-20 max-w-3xl mx-auto">
+        <Title
+          as="h1"
+          className="text-white text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg"
+        >
           À propos de AVTP111
         </Title>
-        <p className="text-base md:text-lg text-gray-200">
+        <p className="text-base md:text-lg text-gray-200 leading-relaxed drop-shadow">
           Spécialiste en terrassement et aménagement paysager en Auvergne.
         </p>
       </MotionFadeIn>
