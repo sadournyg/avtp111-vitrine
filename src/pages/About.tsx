@@ -1,7 +1,7 @@
-import AboutHeroSection from "../sections/AboutHeroSection";
-import AboutPresentation from "../sections/AboutPresentation";
-import AboutValues from "../sections/AboutValues";
-import CtaSection from "../sections/CTASection";
+import AboutHeroSection from "../features/about/AboutHeroSection";
+import AboutPresentation from "../features/about/AboutPresentation";
+import AboutValues from "../features/about/AboutValues";
+import CtaSection from "../components/CTASection";
 
 const About = () => {
   return (

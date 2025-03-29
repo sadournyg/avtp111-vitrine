@@ -1,6 +1,6 @@
-import MotionFadeIn from "../components/MotionFadeIn";
-import Title from "../components/Title";
-import { images } from "../assets/images"; // Assure-toi d’avoir une image contact dans ton dossier
+import MotionFadeIn from "../../components/MotionFadeIn";
+import Title from "../../components/Title";
+import { images } from "../../assets/images/index";
 
 const ContactHeroSection = () => {
   return (

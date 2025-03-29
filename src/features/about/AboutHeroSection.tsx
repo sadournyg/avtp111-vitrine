@@ -1,6 +1,6 @@
-import Title from "../components/Title";
-import MotionFadeIn from "../components/MotionFadeIn";
-import { images } from "../assets/images"; // suppose que tu as une image heroAbout
+import Title from "../../components/Title";
+import MotionFadeIn from "../../components/MotionFadeIn";
+import { images } from "../../assets/images";
 
 const AboutHeroSection = () => {
   return (

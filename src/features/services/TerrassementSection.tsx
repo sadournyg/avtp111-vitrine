@@ -1,6 +1,6 @@
 import { TbBulldozer } from "react-icons/tb";
-import MotionFadeIn from "../components/MotionFadeIn";
-import Title from "../components/Title";
+import MotionFadeIn from "../../components/MotionFadeIn";
+import Title from "../../components/Title";
 
 const TerrassementSection = () => {
   return (

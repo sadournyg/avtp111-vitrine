@@ -1,5 +1,5 @@
-import RealisationsGallery from "../sections/RealisationsGallery";
-import RealisationsHero from "../sections/RealisationsHero";
+import RealisationsGallery from "../features/realisations/RealisationsGallery";
+import RealisationsHero from "../features/realisations/RealisationsHero";
 
 const Realisations = () => {
   return (

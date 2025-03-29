@@ -7,7 +7,6 @@ const ServicesCta = () => {
     <section className="bg-white text-[#1e3a8a] py-20 px-4 text-center">
       <MotionFadeIn className="max-w-3xl mx-auto">
         <Title as="h2" className="mb-4 text-3xl font-bold">
-          {" "}
           Vous avez trouvé le service qu’il vous faut ?
         </Title>
 

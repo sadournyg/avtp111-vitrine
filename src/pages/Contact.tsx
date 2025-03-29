@@ -1,5 +1,5 @@
-import ContactHeroSection from "../sections/ContactHeroSection";
-import ContactSection from "../sections/ContactSection";
+import ContactHeroSection from "../features/contact/ContactHeroSection";
+import ContactSection from "../features/contact/ContactSection";
 
 const Contact = () => {
   return (

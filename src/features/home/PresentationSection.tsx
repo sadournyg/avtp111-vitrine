@@ -1,5 +1,5 @@
-import Title from "../components/Title";
-import MotionFadeIn from "../components/MotionFadeIn";
+import Title from "../../components/Title";
+import MotionFadeIn from "../../components/MotionFadeIn";
 
 const PresentationSection = () => {
   return (

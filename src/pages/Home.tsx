@@ -1,7 +1,7 @@
-import HeroSection from "../sections/HeroSection";
-import PresentationSection from "../sections/PresentationSection";
-import ServicesTeaser from "../sections/ServicesTeaser";
-import CtaSection from "../sections/CTASection";
+import HeroSection from "../features/home/HeroSection";
+import PresentationSection from "../features/home/PresentationSection";
+import ServicesTeaser from "../features/home/ServicesTeaser";
+import CtaSection from "../components/CTASection";
 
 const Home = () => {
   return (

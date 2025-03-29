@@ -1,7 +1,7 @@
-import ContactForm from "../components/ContactForm";
-import ContactInfo from "../components/ContactInfo";
-import MotionFadeIn from "../components/MotionFadeIn";
-import Title from "../components/Title";
+import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
+import MotionFadeIn from "../../components/MotionFadeIn";
+import Title from "../../components/Title";
 
 const ContactSection = () => {
   return (

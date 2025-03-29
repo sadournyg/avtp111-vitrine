@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Title from "../components/Title";
-import { galleryItems, galleryCategories } from "../data/galleryData";
-import { GalleryItem } from "../types/GalleryItem";
+import Title from "../../components/Title";
+import { galleryItems, galleryCategories } from "../../data/galleryData";
+import { GalleryItem } from "../../types/GalleryItem";
 
 const RealisationsGallery = () => {
   const [activeCategory, setActiveCategory] = useState<string>("all");

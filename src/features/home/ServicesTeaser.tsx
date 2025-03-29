@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { services } from "../data/services";
-import Title from "../components/Title";
-import ServiceCard from "../components/ServiceCard";
-import MotionFadeIn from "../components/MotionFadeIn";
+import { services } from "../../data/services";
+import Title from "../../components/Title";
+import ServiceCard from "../services/ServiceCard";
+import MotionFadeIn from "../../components/MotionFadeIn";
 
 const ServicesTeaser = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
-
+import { useScrollToTop } from "./hooks/useScrollToTop";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -11,9 +10,9 @@ import Contact from "./pages/Contact";
 import LegalMentions from "./pages/LegalMentions";
 
 const App: React.FC = () => {
+  useScrollToTop();
   return (
     <>
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />

@@ -1,6 +1,6 @@
 import { FaTools, FaClock, FaUserCheck, FaLeaf } from "react-icons/fa";
-import Title from "../components/Title";
-import MotionFadeIn from "../components/MotionFadeIn";
+import Title from "../../components/Title";
+import MotionFadeIn from "../../components/MotionFadeIn";
 
 const values = [
   {

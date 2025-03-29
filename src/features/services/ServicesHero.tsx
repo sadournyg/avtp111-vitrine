@@ -1,6 +1,6 @@
-import MotionFadeIn from "../components/MotionFadeIn";
-import Title from "../components/Title";
-import { images } from "../assets/images";
+import MotionFadeIn from "../../components/MotionFadeIn";
+import Title from "../../components/Title";
+import { images } from "../../assets/images";
 
 const ServicesHero = () => {
   return (
