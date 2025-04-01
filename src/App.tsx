@@ -13,16 +13,21 @@ const App: React.FC = () => {
   useScrollToTop();
   return (
     <>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home />} />
-          <Route path="services" element={<Services />} />
-          <Route path="realisations" element={<Realisations />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="legal-mentions" element={<LegalMentions />} />
-        </Route>
-      </Routes>
+      <div className="fixed top-0 left-0 w-full bg-yellow-400 text-black text-center py-2 z-50 text-sm shadow-md">
+        ⚠️ Version de démonstration – ne pas diffuser ce lien
+      </div>
+      <div className="pt-10">
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Home />} />
+            <Route path="services" element={<Services />} />
+            <Route path="realisations" element={<Realisations />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="legal-mentions" element={<LegalMentions />} />
+          </Route>
+        </Routes>
+      </div>
     </>
   );
 };
