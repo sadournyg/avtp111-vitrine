@@ -1,9 +1,5 @@
-import React from "react";
-
-type Props = {};
-
-const LegalMentions = (props: Props) => {
-  return <div>LegalMentions</div>;
+const LegalMentions = () => {
+  return <div>Mentions légales à venir.</div>;
 };
 
 export default LegalMentions;

@@ -1,6 +1,6 @@
 // src/components/ServiceCard.tsx
 
-import { Service } from "../types/Service";
+import { Service } from "../../types/Service";
 
 type ServiceCardProps = {
   service: Service;
