@@ -8,13 +8,10 @@ import { generateGallery } from "../utils/generateGallery";
 export const galleryItems: GalleryItem[] = [
   // Terrassement
   ...generateGallery("terrassement", terrassementImages),
-
   // Tranchées
   ...generateGallery("tranchee", trancheeImages),
-
   // Amenagements
   ...generateGallery("amenagement", amenagementImages),
-
   // Avant Apres
   ...generateGallery("avant-apres", avantApresImages),
 ];
