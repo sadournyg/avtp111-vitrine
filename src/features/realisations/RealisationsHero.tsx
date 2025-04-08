@@ -4,7 +4,7 @@ import { images } from "../../assets/images";
 
 const RealisationsHero = () => {
   return (
-    <section className="relative min-h-[60vh] md:min-h-[70vh] flex items-center justify-center text-center text-white px-4 py-20">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center justify-center text-center px-4 py-20 text-white">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0"

@@ -4,7 +4,7 @@ import { images } from "../../assets/images";
 
 const ServicesHero = () => {
   return (
-    <section className="relative min-h-[50vh] md:min-h-[65vh] flex items-center justify-center text-center px-4 py-20 text-white">
+    <section className="relative min-h-[50vh] md:min-h-[70vh] flex items-center justify-center text-center px-4 py-20 text-white">
       {/* Image de fond */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
