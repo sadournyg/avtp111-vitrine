@@ -11,7 +11,10 @@ const AboutHeroSection = () => {
         style={{ backgroundImage: `url(${images.heroAbout})` }}
       />
       {/* Overlay sombre */}
-      <div className="absolute inset-0 bg-black/70 z-10" />
+      <div
+        className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/60 to-black/40 md:from-black/70 md:via-black/40 md:to-black/20"
+        aria-hidden="true"
+      />
 
       {/* Contenu */}
       <MotionFadeIn className="relative z-20 max-w-3xl mx-auto">

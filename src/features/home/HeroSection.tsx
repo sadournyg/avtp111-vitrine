@@ -13,7 +13,10 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${images.heroBg})` }}
       />
       {/* Overlay sombre */}
-      <div className="absolute inset-0 bg-black/70 z-10" />
+      <div
+        className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/60 to-black/40 md:from-black/70 md:via-black/40 md:to-black/20"
+        aria-hidden="true"
+      />
 
       {/* Contenu principal centré */}
       <div className="relative z-20 flex-1 flex items-center justify-center">
